@@ -1,20 +1,49 @@
 {
-  "name": "gohighlevel",
+  "name": "@drausal/gohighlevel-mcp",
   "version": "1.0.0",
-  "description": "MCP Server generated from OpenAPI spec for gohighlevel",
-  "private": true,
+  "description": "Model Context Protocol (MCP) server for GoHighLevel API - Complete access to contacts, opportunities, calendars, workflows, and more",
   "type": "module",
   "main": "build/index.js",
+  "bin": {
+    "gohighlevel-mcp": "build/index.js"
+  },
   "files": [
     "build",
-    "src"
+    "README.md",
+    "LICENSE",
+    "docs"
   ],
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc && chmod 755 build/index.js",
     "typecheck": "tsc --noEmit",
-    "prestart": "npm run build"
+    "prestart": "npm run build",
+    "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gohighlevel",
+    "crm",
+    "api",
+    "ai",
+    "claude",
+    "anthropic",
+    "warp",
+    "leadconnector",
+    "automation",
+    "marketing"
+  ],
+  "author": "Tech on Tires, LLC <tech@on.tires>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drausal/gohighlevel-mcp.git"
+  },
+  "homepage": "https://github.com/drausal/gohighlevel-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/drausal/gohighlevel-mcp/issues"
+  },
+  "license": "MIT",
   "engines": {
     "node": ">=20.0.0"
   },
