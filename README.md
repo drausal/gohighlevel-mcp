@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server providing access to the complete GoHighLevel API. This server enables AI assistants like Claude to interact with GoHighLevel's services including contacts, opportunities, calendars, workflows, and more.
 
+<a href="https://glama.ai/mcp/servers/@drausal/gohighlevel-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@drausal/gohighlevel-mcp/badge" alt="GoHighLevel Server MCP server" />
+</a>
+
 ## 🚀 Quick Start
 
 ```bash
